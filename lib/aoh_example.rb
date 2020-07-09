@@ -18,7 +18,10 @@ def assembled_aoh
 end
 
 def literal_aoh
-  
+  aoh = [
+    {:key_one=>"pair", :key_two=>"pair"}
+    ]
+  aoh
 end
 
 def aoh_lookup(aoh, row, key)
