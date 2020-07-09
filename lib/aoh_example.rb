@@ -7,11 +7,11 @@ KATE_G = { name:  "Kate Gompert", occupation: "None" },
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
 def assembled_aoh
-  film_fest = [
-  DIRECTOR_ONE = {:name=>"Ida Lupino", :favorite_movie=>"The Hitch-Hiker"},
-  DIRECTOR_TWO = {:name=>"Orson Welles", :favorite_movie=>"Citizen Kane"},
-  DIRECTOR_THREE = {:name=>"Andrej Tarkovsky", :favorite_movie=>"Solaris"}
-  ] 
+    result = [{:name=>"Don Gately", :occupation=>"Live-in Staff"},
+       {:name=>"Joelle van Dyne", :occupation=>"Radio Personality"},
+       {:name=>"Pat Monteseian", :occupation=>"Staff"},
+       {:name=>"Kate Gompert", :occupation=>"None"},
+       {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
 end
 
 def literal_aoh
